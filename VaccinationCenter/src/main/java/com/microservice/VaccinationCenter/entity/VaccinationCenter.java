@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 public class VaccinationCenter {
 
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO)
 	private Integer id;
 	private String centerName;
 	private String  centerAddress;

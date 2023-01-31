@@ -6,4 +6,7 @@ import com.microservice.VaccinationCenter.entity.VaccinationCenter;
 
 public interface VaccinationRepository extends JpaRepository<VaccinationCenter, Integer> {
 
+	
+	
+	
 }
